@@ -1,26 +1,26 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-        class ApplicationLicense
+class ApplicationLicense
+{
+        public void AllowTrial()
         {
-            public void AllowTrial()
-            {
                 Console.WriteLine("Триальний режим");
-            }
-
-            public void AllowCommon()
-            {
-                Console.WriteLine("Безкоштовна версiя");
-            }
-
-            public void AllowPro()
-            {
-                Console.WriteLine("Платна версія");
-            }
         }
+
+        public void AllowCommon()
+        {
+                Console.WriteLine("Безкоштовна версiя");
+        }
+
+        public void AllowPro()
+        {
+                Console.WriteLine("Платна версія");
+        }
+}
 
 class Program
 {
